@@ -75,29 +75,38 @@ public class main {
 		System.out.println("\n Peso valigia 6   |" + valigia6.getPeso());
 
 
-		
 		KgAereo = persona1.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 		}
 		KgAereo = KgAereo + valigia1.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 			 KgAereo = KgAereo - valigia1.getPeso();
 		}
 		KgAereo = KgAereo + persona2.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 			 
 		}
 		KgAereo = KgAereo + valigia2.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 			 KgAereo = KgAereo - valigia2.getPeso();
 		}
 		KgAereo = KgAereo + minore1.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 		}
 		KgAereo = KgAereo + valigia3.getPeso();
 		nMin = 1;
@@ -107,18 +116,26 @@ public class main {
 
 		if (nMin > 3) {
 			Errore1.infoBox("Numero minori superiore al massimo consentito", "Operazione Fallita");
+			System.out.println("\n Peso Rimosso");
+
 		}
 		KgAereo = KgAereo + minore2.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 		}
 		nMin = nMin + 1;
 		if (nMin > 3) {
 			Errore1.infoBox("Numero minori superiore al massimo consentito", "Operazione Fallita");
+			System.out.println("\n Peso Rimosso");
+
 		}
 		KgAereo = KgAereo + valigia4.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 			 KgAereo = KgAereo - valigia4.getPeso();
 		}
 		
@@ -126,30 +143,42 @@ public class main {
 		KgAereo = KgAereo + minore3.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 		}
 		KgAereo = KgAereo + valigia5.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 			 KgAereo = KgAereo - valigia5.getPeso();
 		}
 		nMin = nMin + 1;
 		if (nMin > 3) {
 			Errore1.infoBox("Numero minori superiore al massimo consentito", "Operazione Fallita");
+			System.out.println("\n Peso Rimosso");
+
 		}
 		
 		KgAereo = KgAereo + minore4.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 			 KgAereo = KgAereo - minore4.getPeso();
 		}
 		KgAereo = KgAereo + valigia6.getPeso();
 		if (KgAereo > 300) {
 			 Errore1.infoBox("Peso Eccessivo", "Operazione Fallita");
+				System.out.println("\n Peso Rimosso");
+
 			 KgAereo = KgAereo - valigia6.getPeso();
 		}
 		nMin = nMin + 1;
 		if (nMin > 3) {
 			Errore1.infoBox("Numero minori superiore al massimo consentito", "Operazione Fallita");
+			System.out.println("\n Peso Rimosso");
+
 			nMin = nMin - 1;
 			KgAereo = KgAereo - minore4.getPeso();
 		}
